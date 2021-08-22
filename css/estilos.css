@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.titulo_1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  padding: 10px;
+  text-align: center; }
+
+.titulo_2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400; }
+
+.titulo_3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-style: regular;
+  font-weight: 200; }
+
+.icono_csgo {
+  height: 240px;
+  padding: 10px; }
+
+.icono_cod {
+  height: 240px;
+  padding: 10px; }
+
+.titulo--1 {
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic; }
+
+.titulo--2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 1rem;
+  font-style: regular; }
+
+.titulo--3 {
+  font-size: 2rem;
+  text-decoration: underline;
+  font-style: italic; }
+
+.desafio {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  display: flex;
+  position: absolute; }
+  .desafio .desafio--imagen {
+    height: 480px;
+    border-color: #016684; }
+  .desafio ul {
+    margin: 10px;
+    padding: 20px;
+    list-style: none; }
+
+.navLink {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  margin: 0 auto;
+  text-shadow: -5px 3px 2px #080808; }
+  .navLink:hover {
+    transform: scale(1.2);
+    color: white;
+    text-decoration: none; }
+
+.divdc {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1; }
+  .divdc:hover {
+    transform: scale(1.2); }
+
+.fotodc {
+  width: 40px; }
+
+.index {
+  background-color: black;
+  background-repeat: no-repeat;
+  background: url(../media/bc.jpg);
+  background-position: center; }
+
+.titulo, .titulo__enfasis, .titulo__enfasis--subrayado {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #016684;
+  text-align: center;
+  padding: 10px; }
+
+.titulo__enfasis, .titulo__enfasis--subrayado {
+  font-style: italic;
+  color: white; }
+
+.titulo__enfasis--subrayado {
+  text-decoration: underline; }
+
+.videoYT {
+  margin: 10px; }
+
+.videoFooter {
+  height: 480px; }
+
+.footer__texto, .footer__texto--blanco {
+  color: #016684;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem; }
+
+.footer__texto--blanco {
+  font-size: 1.2rem;
+  color: white; }
+
+.textoEnNegrita, .textoEnNegritaEnfasis {
+  color: blueviolet;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  word-spacing: 0.5px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  background-size: cover;
+  padding: 20px; }
+
+.textoEnNegritaEnfasis {
+  font-size: 1.7rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.blancoLugar {
+  color: white;
+  font-style: italic;
+  text-decoration: underline; }
+
+.barraBlanca {
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  width: 300px;
+  box-sizing: border-box; }
+
+.contacto {
+  background-color: black;
+  background-repeat: no-repeat;
+  background: url(../media/contacto.jpg);
+  background-position: center; }
+
+.Duda {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  padding: 10px; }
+
+.FAQ {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  background: #10849c;
+  color: white;
+  padding: 10px; }
+
+.formulario {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  align-content: center;
+  padding: 20px;
+  color: white;
+  width: 100%; }
+
+.textareaContacto {
+  width: 100%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  resize: none; }
+
+.e-sports {
+  background-color: black;
+  background-repeat: no-repeat;
+  background: url(../media/e-sports.jpg);
+  background-position: center; }
+
+.fotoCaroussel {
+  height: 480px; }
+
+.equipo, .equipo--nombre {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center; }
+
+.equipo--nombre {
+  color: #016684;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 5rem; }
+
+.texto__inscripcion, .texto__inscripcion--explicacion {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #016684;
+  font-size: 1.5rem;
+  text-align: center; }
+
+.texto__inscripcion--explicacion {
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px; }
+
+.formularioE-Sports {
+  color: white;
+  align-content: center;
+  padding: 20px; }
+
+.textareaE-Sports {
+  resize: none; }
+
+.proyecto {
+  background-color: black;
+  background-repeat: no-repeat;
+  background: url(../media/proyecto.jpg);
+  background-position: center; }
+
+.nuestroideal {
+  color: white;
+  text-align: left;
+  padding: 10px; }
+
+.nuestroideal--titulo {
+  font-size: 2rem; }
+
+.nuestroideal--explicacion {
+  font-family: 'Montserrat', sans-serif; }
+
+.box__tipodeclase, .box__tipodeclase--titulo, .box__tipodeclase--subtitulo, .box__tipodeclase--precio {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  position: relative; }
+
+.box__tipodeclase--titulo {
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline; }
+
+.box__tipodeclase--subtitulo {
+  font-weight: 300;
+  font-size: 1.1rem; }
+
+.box__tipodeclase--precio {
+  font-weight: 100;
+  text-align: right; }
+
+.clase__foto--posicion {
+  height: 240px; }
+
+.fotoFlex {
+  height: 240px;
+  border-style: solid;
+  border-color: #016684; }
+
+.preguntasclases__acordeon, .preguntasclases__acordeon--pregunta, .preguntasclases__acordeon--respuesta {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left; }
+
+.preguntasclases__acordeon--pregunta {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.2rem; }
+
+.preguntasclases__acordeon--respuesta {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: normal; }
+
+.faq {
+  background-color: black;
+  background: url(../media/faq.jpg);
+  background-repeat: no-repeat; }
+
+.FAQ {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  background: #10849c;
+  color: white;
+  padding: 10px; }
+
+.link--txt {
+  text-decoration: none;
+  color: #016684; }
+
+.link--txt:hover {
+  text-decoration: none;
+  color: #016684; }
+
+.enviado__texto, .enviado__texto--titulo, .enviado__texto--medio, .enviado__texto--chico {
+  color: #016684;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center; }
+
+.enviado__texto--titulo {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #017597; }
+
+.enviado__texto--medio {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400; }
+
+.enviado__texto--chico {
+  font-size: 1rem;
+  font-weight: 300; }
+
+.buttonEnviado {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: black;
+  background-color: white; }
+  .buttonEnviado:hover {
+    color: darkblue; }
+
+.input__nombre {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.input__email {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.input__mensaje {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.input__checkbox {
+  padding: 5px; }
+
+.input__terminos {
+  padding: 5px; }
+
+@media all and (max-width: 425px) {
+  .contacto {
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .iconos {
+    height: 256px; } }
+
+@media all and (max-width: 425px) and (max-width: 768px) {
+  .index {
+    background-size: 50%;
+    background: url(../media/bc2.jpg);
+    background-position: center; }
+  .contacto {
+    background: url(../media/contacto2.jpg);
+    background-position: center; }
+  .e-sports {
+    background-size: 50%;
+    background: url(../media/e-sports2.jpg);
+    background-position: center; }
+  .proyecto {
+    background-size: 50%;
+    background: url(../media/proyecto3.jpg);
+    background-position: center;
+    background-repeat: no-repeat; }
+  .faq {
+    background-size: 50%;
+    background: url(../media/faq2.jpg);
+    background-position: center; }
+  .textoEnNegrita, .textoEnNegritaEnfasis {
+    font-size: 1.2rem; } }
+
+@media all and (max-width: 425px) and (max-width: 768px) and (max-width: 425px) {
+  .iconos {
+    height: 144px; }
+  .barraBlanca {
+    width: 250px; }
+  .titulo_1 {
+    font-size: 2rem; }
+  .titulo, .titulo__enfasis, .titulo__enfasis--subrayado {
+    font-size: 1.8rem; }
+  .index {
+    background: url(../media/bc3.jpg);
+    background-position: center; }
+  .textoEnNegrita, .textoEnNegritaEnfasis {
+    font-size: 1.2rem; }
+  .texto__inscripcion--explicacion {
+    font-size: 1rem;
+    text-align: left; }
+  .navLink {
+    padding: 20px; } }
+
+@media all and (max-width: 425px) and (max-width: 768px) and (max-width: 375px) {
+  .iconos {
+    height: 100px; }
+  .fotoFlex {
+    height: 200px; }
+  .titulo_1 {
+    font-size: 1.75rem; }
+  .equipo--nombre {
+    font-size: 4rem; }
+  .texto__inscripcion--explicacion {
+    font-size: 1rem;
+    text-align: left; }
+  .navLink {
+    padding: 10px; } }
