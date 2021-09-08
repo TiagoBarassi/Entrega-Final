@@ -63,12 +63,10 @@
 	font-style: italic;
 	text-decoration: none;
 	color: white;
-	padding: 30px;
-	margin: 0 auto;
 	text-shadow: -5px 3px 2px #080808;
 	&:hover {
-		transform: scale(1.2);
-	color: white;
+	transform: scale(1.05);
+	color: rgb(1, 102, 132);
 	text-decoration: none;
 	}
 }
